@@ -1,20 +1,22 @@
-# Playwright
+# Node
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
 
-# Allure
-allure-report/
-allure-results/
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
 
-# AI Agent Folder (if not needed in repo)
+# Allure Reports
+allure-report/**
+allure-results/**
+
+# AI Agent
 gopi-ai-agent/output.txt
 
-# Environment & binaries
+# Environment
 .env
+
+# Binaries
 jenkins.war
-
-
